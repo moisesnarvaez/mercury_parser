@@ -6,7 +6,7 @@ module MercuryParser
     VALID_OPTIONS_KEYS    = [:api_key].freeze
     VALID_CONFIG_KEYS     = VALID_CONNECTION_KEYS + VALID_OPTIONS_KEYS
 
-    DEFAULT_API_ENDPOINT  = "https://mercury.postlight.com/parser"
+    DEFAULT_API_ENDPOINT  = "https://mercury.modacta.koombea.io/parser"
     DEFAULT_USER_AGENT    = "MercuryParser Ruby Gem #{MercuryParser::VERSION}".freeze
     DEFAULT_API_TOKEN     = nil
 
